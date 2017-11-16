@@ -16,5 +16,11 @@ namespace DemoJenkins
 		{
 			InitializeComponent();
 		}
+
+		private void Form1_Load(object sender, EventArgs e)
+		{
+			lbl_DateNow.Text = DateTime.Now.ToLongDateString();
+			lbl_DateNow1.Text = DateTime.Now.ToLongTimeString();
+		}
 	}
 }
