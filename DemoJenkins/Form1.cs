@@ -21,6 +21,7 @@ namespace DemoJenkins
 		{
 			lbl_DateNow.Text = DateTime.Now.ToLongDateString();
 			lbl_DateNow1.Text = DateTime.Now.ToLongTimeString();
+			lbl_Name.Text = "Kanel";
 		}
 	}
 }
